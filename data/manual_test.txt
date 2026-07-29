@@ -1,0 +1,235 @@
+Spam Classification Manual Test Set
+=====================================
+
+说明：
+以下邮件均为人工生成测试样本，不来自训练集或测试数据库。
+
+Label:
+Spam = 垃圾邮件
+Ham = 正常邮件
+
+
+==============================
+Test Case 1
+==============================
+
+Type:
+Spam
+
+Message:
+Congratulations! Your mobile number has been selected for an exclusive reward. You can receive a $500 gift card today. Visit our website and confirm your details before midnight.
+
+Correct Answer:
+Spam
+
+
+
+==============================
+Test Case 2
+==============================
+
+Type:
+Spam
+
+Message:
+URGENT NOTICE: Your account has qualified for a special bonus. Click the secure link now to unlock your free membership and claim your reward.
+
+Correct Answer:
+Spam
+
+
+
+==============================
+Test Case 3
+==============================
+
+Type:
+Spam
+
+Message:
+Dear customer, you have been chosen among thousands of users to receive a brand new smartphone. Reply YES to activate your free delivery.
+
+Correct Answer:
+Spam
+
+
+
+==============================
+Test Case 4
+==============================
+
+Type:
+Spam
+
+Message:
+WINNER ALERT!!! You are the lucky recipient of our weekly lottery promotion. Contact our agent immediately to collect your prize money.
+
+Correct Answer:
+Spam
+
+
+
+==============================
+Test Case 5
+==============================
+
+Type:
+Spam
+
+Message:
+Limited time offer! Get premium services at 90% discount. Subscribe now and enjoy unlimited benefits.
+
+Correct Answer:
+Spam
+
+
+
+==============================
+Test Case 6
+==============================
+
+Type:
+Ham
+
+Message:
+Hey, I left my notebook in the library. Could you bring it back when you come tomorrow?
+
+Correct Answer:
+Ham
+
+
+
+==============================
+Test Case 7
+==============================
+
+Type:
+Ham
+
+Message:
+The meeting has been moved to Friday afternoon because the professor is unavailable today.
+
+Correct Answer:
+Ham
+
+
+
+==============================
+Test Case 8
+==============================
+
+Type:
+Ham
+
+Message:
+I cooked dinner tonight. There is some food left in the fridge if you want some.
+
+Correct Answer:
+Ham
+
+
+
+==============================
+Test Case 9
+==============================
+
+Type:
+Ham
+
+Message:
+Don't forget to send me the document before the class starts. Thanks!
+
+Correct Answer:
+Ham
+
+
+
+==============================
+Test Case 10
+==============================
+
+Type:
+Ham
+
+Message:
+The weather looks great this weekend. Maybe we can go hiking together.
+
+Correct Answer:
+Ham
+
+
+
+==============================
+Hard Case 11
+==============================
+
+Type:
+Hard Spam
+
+Message:
+Your subscription is ready. Please review your account settings to avoid losing access to your service.
+
+Correct Answer:
+Spam
+
+Reason:
+Contains subscription, account, and access-related language. These patterns are common in phishing or promotional spam.
+
+
+
+==============================
+Hard Case 12
+==============================
+
+Type:
+Hard Ham
+
+Message:
+I won the game yesterday! Everyone on the team was so happy.
+
+Correct Answer:
+Ham
+
+Reason:
+The word "won" frequently appears in spam messages, but here it describes a normal conversation about a game.
+
+
+
+==============================
+Hard Case 13
+==============================
+
+Type:
+Hard Ham
+
+Message:
+Can you check the price of the new phone before we buy it?
+
+Correct Answer:
+Ham
+
+Reason:
+Although words such as "price" and "phone" may appear in commercial messages, the context is a normal personal conversation.
+
+
+
+==============================
+Hard Case 14
+==============================
+
+Type:
+Hard Spam
+
+Message:
+Hello, we noticed unusual activity on your account. Verify your identity now to receive your security update.
+
+Correct Answer:
+Spam
+
+Reason:
+Contains account verification and urgent action patterns that are common in phishing emails.
+
+
+=====================================
+End of Test Set
+=====================================
